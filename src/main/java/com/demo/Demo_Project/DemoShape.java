@@ -1,13 +1,9 @@
 package com.demo.Demo_Project;
 
-class Shape {
-	public float area() {
-		return 0;
-	}
-
-	public float circumference() {
-		return 0;
-	}
+abstract class Shape {
+	public abstract float area();
+	public abstract float circumference();
+	
 	public void display(float finalArea){
 		System.out.print(finalArea);
 	}
